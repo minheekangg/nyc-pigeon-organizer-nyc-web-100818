@@ -3,8 +3,7 @@ def nyc_pigeon_organizer(data)
   temp = []
   data.each_with_object({}) do |(key, h), result|
   puts key
-      end
-    end
+  puts h
   end
 
 end
