@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, values|
     values.each do |v_label, names|
       names.each do |name|
-        temp << "#{name}, #{key}, #{v_label}"
+        new_hash[name] = {key =>v_label
         puts temp
       end
     end
