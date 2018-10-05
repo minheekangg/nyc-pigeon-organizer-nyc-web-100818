@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     values.each do |v_label, names|
       names.each do |name|
         temp << [key,value]
+        puts temp
   end
     end
 
