@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         temp << [key,value]
         puts temp
-  end
+      end
     end
-
+  end
 
 end
