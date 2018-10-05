@@ -5,8 +5,7 @@ def nyc_pigeon_organizer(data)
     values.each do |v_label, names|
       names.each do |name|
         new_hash[name] = {key =>v_label}
-          puts new_hash
-        puts temp
+          if new_hash.include?
       end
     end
   end
